@@ -1,0 +1,9 @@
+/*  cách đặt hiến có thể sử dụng mội nới  */
+
+:root{
+    --text-color:green;
+
+}
+h1{
+    color: var(--text-color);
+}
