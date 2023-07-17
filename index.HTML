@@ -7,8 +7,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
+<style>
+    html{
+        font-size: 40px;
+    }
+.box::after{
+    content: " xin chào các bạn ";
+}
+    a::after{
+        content: " (" attr(href)")";
+    }
+</style>
 <body>
+    <div class="box"></div>
     <h1>Lorem ipsum dolor sit.</h1>
     <h2>Lorem ipsum dolor sit amet.</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla modi beatae voluptatem nisi quos assumenda unde
