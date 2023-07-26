@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main {}
+
+#header {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-color: black;
+    line-height: 46px;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav>li {
+    display: inline-block;
+}
+
+#nav li {
+
+    position: relative;
+
+}
+
+#nav>li>a {
+    color: #fff;
+
+}
+
+#nav li a {
+    display: block;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+#nav>li:hover>a,
+#nav .subnav li:hover a {
+    color: #333;
+    background-color: rgba(231, 235, 231, 0.867);
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav .subnav {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+
+}
+
+
+#nav .subnav a {
+    color: #130202;
+    padding: 0 12px;
+    /* dùng số chia hết cho 4 */
+    line-height: 38px;
+}
+
+#nav,
+.subnav {
+    list-style: none;
+}
+
+
+#nav .nav-arrow-dow {
+    font-size: 14px;
+}
+#header .search-btn {
+    float: right;
+
+}
+
+#header .search-btn:hover {
+    cursor: pointer;
+}
+
+#header .search-icon {
+    color: #fff;
+    font-size: 20px;
+    padding: 0 20px;
+
+}
+#slider {
+    background-color: #c83333;
+    min-height: 400px;
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url(../img/newyork.jpg) top center / cover no-repeat;
+}
+.text-content{
+   text-align: center;
+  
+   padding-bottom: 32px;
+}
+.text-content h1{
+    font-weight: 400;
+}
+.text-content p{
+    margin-top: 10px;
+    font-weight: bolder;
+
+}
+#content .content-section {
+    text-align: center;
+    margin-top: 85px;
+}
+#content .section-heading{
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.section-sub-heading{
+    margin-top: 10px;
+    font-style: italic;
+    opacity: 0.5;
+    font-size: 15px;
+}
+.about-text{
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: justify;
+  
+    max-width: 750px;
+    line-height: 1.4;
+    margin-left: 25%;
+}
+ .name {
+    margin-top: 30px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+.member-item p{
+    text-align: center;
+}
+.member-item img{
+    margin-top: 20px;
+    width: 60%;
+   margin-left: 20%;
+   border-radius: 5px;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 750px;
+    margin-left: 25%;
+}
+.form-infor{
+    
+    margin-top: 10px;
+  
+    gap: 30px;
+}
+
+.form input{
+    border: 1px solid#ccc;
+    padding: 8px;
+    margin-top: 10px;
+}
+.infor{
+    text-align: justify;
+}
+
+.form button{
+    background-color: black;
+    color: #fff;
+    margin-top: 16px;
+    border: none;
+    padding: 8px 16px;
+    float: right;
+    right: 0;
+}
+.mess input{
+    width: 98%;
+   
+}
+#content {
+    
+}
+
+#footer {}
+.map{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    min-height: 500px;
+    background: url(../img/map.jpg) center / cover no-repeat;
+}
