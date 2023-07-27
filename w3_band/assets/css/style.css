@@ -154,14 +154,25 @@
 .tikets{
     background-color: #130202;
     margin-bottom: 50px;
+    height: 800px;
 }
-.tiket {
+.month-tikets{
     background-color: #fff;
    max-width: 750px;
    
     margin-left: 25%;
    
 
+}
+.buy-tikets{
+   
+    max-width: 750px;
+    
+     margin-left: 25%;
+}
+
+.number{
+    
 }
 .month {
     list-style: none;
@@ -187,18 +198,40 @@
     max-width: 230px;
     min-height: 250px;
 }
+.buy img:hover{
+ opacity: 0.8;
+}
 .text-buy{
     text-align: justify;
+    margin-left: 15px;
 }
 .buy{
-   height: 500px;
+    width: 92%;
+    height: 450px;
     background-color: #fff;
 }
-.buy button{
+.buy b{
+    font-size: 15px;
+    font-weight: bold;
+}
+.time{
+    opacity: 0.5;
+    
+}
+.text-buy p{
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 185px;
+}
+.text-buy .btn-buy{
     background-color: #130202;
     color: #fff;
-    padding: 16px 8px;
+    padding: 14px 6px;
+   
+    font-weight: 400;
 }
+
 .contact{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -250,4 +283,60 @@
    margin-left: 50%;
    letter-spacing: 5px;
    margin-bottom: 50px;
+}
+.pay-tikets{
+    max-width: 700px;
+  
+    margin-left: 25%;
+}
+.tikets-pay{
+    background-color: #009688;
+    min-height: 100px;
+    font-style: 800;
+    text-align: center;
+    padding-top: 30px;
+    letter-spacing: 8px;
+    font-size: 20px;
+}
+.cart-pay p{
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+.cart-pay>input{
+    border: 1px solid #ccc;
+    width: 100%;
+   padding: 8px 0;
+   margin-top: 10px;
+}
+.btn-pay{
+   background-color: #009688;
+   border: none;
+   color: #fff;
+   font-size: 20px;
+   width: 100%;
+   min-height: 50px;
+   margin-top: 10px;
+}
+.btn-close{
+    background-color: orangered;
+    color: #fff;
+    font-size: 15px;
+    padding: 6px 5px;
+    border: none;
+}
+.cart-pay span{
+    float: right;
+    margin-right: 10px;
+}
+.text-buy button:hover,
+.pay-tikets button:hover{
+    background-color: #ccc;
+}
+.pay-tikets{
+    display: none;
+}
+.text-buy .btn .pay-tikets button:hover{
+    display: block;
+    
 }
